@@ -60,7 +60,7 @@ end
 
 #Detect if a game is over
 def over?(board)
-  if (won?(board) == TRUE)
+  if (won?(board) != FALSE)
     return TRUE
     
   elsif (draw?(board) == TRUE)
